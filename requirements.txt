@@ -17,3 +17,4 @@ Pillow
 
 # Configuration
 PyYAML
+opencv-python-headless
