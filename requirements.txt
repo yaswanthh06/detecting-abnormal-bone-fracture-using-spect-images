@@ -1,0 +1,19 @@
+
+# FastAPI backend
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+
+# Machine learning
+torch
+torchvision
+scikit-learn
+numpy
+pandas
+
+# Image processing
+Pillow
+
+# Configuration
+PyYAML
