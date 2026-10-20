@@ -1,0 +1,6 @@
+{
+  "name": "FracAtlas X-ray Bone Fracture Classification",
+  "description": "Research-use-only FracAtlas X-ray bone fracture classification with a PyTorch ResNet-18 model and Grad-CAM visual explanations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

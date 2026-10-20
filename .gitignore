@@ -1,0 +1,31 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
+
+# ML Checkpoints and Data
+*.pt
+*.pth
+*.onnx
+checkpoints/*.pt
+!checkpoints/.gitkeep
+data/raw/
+data/processed/
+temp_uploads/
+

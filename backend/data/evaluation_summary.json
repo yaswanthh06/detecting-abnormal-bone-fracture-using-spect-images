@@ -1,0 +1,41 @@
+{
+  "has_evaluation_data": true,
+  "evaluation_timestamp": "2026-10-13T17:13:18.798186Z",
+  "split_counts": {
+    "train_images": 2816,
+    "val_images": 604,
+    "test_images": 604,
+    "total_images": 4024
+  },
+  "metrics": {
+    "accuracy": 0.8907,
+    "precision": 0.8621,
+    "recall_sensitivity": 0.463,
+    "specificity": 0.9839,
+    "f1_score": 0.6024,
+    "roc_auc": 0.87,
+    "test_sample_count": 604
+  },
+  "confusion_matrix": {
+    "matrix": [
+      [
+        488,
+        8
+      ],
+      [
+        58,
+        50
+      ]
+    ],
+    "labels": [
+      "Non-fractured",
+      "Fractured"
+    ],
+    "true_negatives": 488,
+    "false_positives": 8,
+    "false_negatives": 58,
+    "true_positives": 50
+  },
+  "manifest_path": "backend\\data\\manifest.csv",
+  "message": "Held-out image-level test set evaluated successfully (604 images)."
+}
