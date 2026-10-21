@@ -119,7 +119,7 @@ export default function App() {
   const canRunInference = isBackendConnected && !!modelStatus?.checkpoint_loaded;
   let disabledReason: string | null = null;
   if (!isBackendConnected) {
-    disabledReason = 'FastAPI backend is not running at http://127.0.0.1:8000. Start the server with uvicorn.';
+   blockedReason ='FastAPI backend is not running at https://detecting-abnormal-bone-fracture-using.onrender.com/. Start the server with uvicorn.';
   } else if (!modelStatus?.checkpoint_loaded) {
     disabledReason = 'No trained checkpoint loaded. Untrained model inference is disabled to prevent unvalidated predictions.';
   }
