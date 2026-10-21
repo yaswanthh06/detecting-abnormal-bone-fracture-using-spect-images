@@ -7,7 +7,7 @@ import requests
 import streamlit as st
 
 
-BACKEND_URL = "https://detecting-abnormal-bone-fracture-using.onrender.com"
+BACKEND_URL = "https://detecting-abnormal-bone-fracture-using-buhz.onrender.com"
 REQUEST_TIMEOUT_SECONDS = 60
 ACCEPTED_EXTENSIONS = ["png", "jpg", "jpeg", "tiff", "tif"]
 MAX_UPLOAD_SIZE_BYTES = 25 * 1024 * 1024
